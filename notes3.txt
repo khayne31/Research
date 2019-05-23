@@ -1,0 +1,3 @@
+open nii files in matlab
+average everything in each area onto 
+ft_read_cifti and ft_write_cifit in the FieldTrip toolbox
