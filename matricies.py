@@ -1,4 +1,6 @@
 import numpy as np
+import time
+start_timme = time,time()
 weights = np.loadtxt("weights_tract.txt") #structural
 length_matrix = np.loadtxt("lengths_tract.txt")
 connections = np.loadtxt("weights_surf.txt")
@@ -18,3 +20,4 @@ new_all_rest = all_rest[:, : , :1800]
 
 all_data = np.concatenate((all_task, new_all_rest), axis = 0)
 all_data.shape
+end_ime
